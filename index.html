@@ -6,24 +6,43 @@
 
   <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Recipe page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      background-color: hsl(330, 100%, 98%);
+    }
+
     .card {
-      max-width: 450px;
+      max-width: 600px;
+    }
+
+    .card-title {
+      font-family: 'Young serif', serif;
+      font-size: 25px;
+    }
+
+    .below-card-title {
+      font-family: 'Outfit', sans-serif;
     }
   </style>
 </head>
 <body>
   <div class="container d-flex justify-content-center align-items-center vh-100 ">
-    <div class="card text-center">
-      <div class="card-img-top"><img src="assets/images/image-omelette.jpeg" width="200px" alt=""></div>
-      <div class="card-title">Simple Omelette Recipe</div>
+    <div class="card text-center p-3">
+      <div class="card-img-top"><img src="assets/images/image-omelette.jpeg" width="400px" alt=""></div>
+      <div class="card-title my-4 text-left">Simple Omelette Recipe</div>
       
-      An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+      <p class="below-card-title">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+      to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
     
       Preparation time
     
